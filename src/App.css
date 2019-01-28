@@ -1,0 +1,81 @@
+.titleHeader {
+  background-color: #000;
+  display: block;
+  color: #fff;
+  padding-left: 15;
+}
+.itemtitle {
+  margin-bottom: 0;
+}
+
+.card-img-top1 {
+  height: 100%;
+  border-top-left-radius: calc(0.25rem - 1px);
+  border-top-right-radius: calc(0.25rem - 1px);
+}
+
+.card-nasa {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+  margin: 5px;
+  padding: 0px;
+}
+.card-text-nasa {
+  margin-bottom: 0;
+  text-overflow: ellipsis;
+  white-space: pre-wrap;
+  height: 100px;
+  overflow: hidden;
+  display: block;
+}
+
+.spantext {
+  display: block;
+  width: 200px;
+  height: 50px;
+  overflow: hidden;
+  white-space: wrap;
+  text-overflow: ellipsis;
+  padding: 10px;
+  font-size: 12px;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
